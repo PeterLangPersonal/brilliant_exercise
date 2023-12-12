@@ -43,10 +43,8 @@ data.forEach(employee => {
         // If exactly on the day of the new hire gift, push to output json
         // Check employee type is allowed
         const dayDiff =  moment().diff(hireDate, 'days');
-        if (Object.keys(NewHireEmploymentType).includes(employee.employment_type)) {
-            if (dayDiff === NewHirePeriod) {
-                pushToOutput(employee, 0);
-            }
+        if (Object.keys(NewHireEmploymentType).includes(employee.employment_type) && dayDiff === NewHirePeriod) {
+            pushToOutput(employee, 0);
         }
     
         // If exactly day of anniversary, push to output json
