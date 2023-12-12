@@ -1,0 +1,38 @@
+[
+    {
+      "name": "Baz Ball",
+      "email": "baz@example.com",
+      "hire_date": "2023-12-04",
+      "employment_type": "Full-Time"
+    },
+    {
+      "name": "Foo Bar",
+      "email": "foo@example.com",
+      "hire_date": "2018-12-12",
+      "employment_type": "Full-Time"
+    },
+    {
+      "name": "Foo Bar",
+      "email": "foo@example.com",
+      "hire_date": "2013-12-12",
+      "employment_type": "Full-Time"
+    },
+    {
+      "name": "Foo Bar",
+      "email": "foo@example.com",
+      "hire_date": "2018-12-13",
+      "employment_type": "Full-Time"
+    },
+    {
+      "name": "Foo Bar",
+      "email": "foo@example.com",
+      "hire_date": "2008-12-12",
+      "employment_type": "Full-Time"
+    },
+    {
+      "name": "Foo Bar",
+      "email": "foo@example.com",
+      "hire_date": "2003-12-12",
+      "employment_type": "Full-Time"
+    }
+]
